@@ -1,0 +1,77 @@
+# macOS and editor metadata
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+
+# Datasets and annotations
+data/
+datasets/
+image/
+images/
+annotation/
+annotations/
+AffectSet/
+EmoSet/
+
+# Pretrained models and checkpoints
+assets/
+weights/
+checkpoints/
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Generated caches and large precomputed artifacts
+latent_cache/
+emo_cache/
+cache/
+precompute/attr_va_stats*.pt
+precompute/attr_va_stats*.csv
+
+# Experiment outputs
+output/
+outputs/
+results/
+runs/
+logs/
+wandb/
+tensorboard/
+*.log
+
+# Generated inference and evaluation files
+inference_outputs/
+eval_per_image.csv
+eval_summary.json
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Keep source metadata tracked
+!precompute/attr_list.json

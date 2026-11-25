@@ -1,0 +1,15 @@
+# The paper environment used PyTorch 2.9.0 with CUDA 12.8.
+# Install the matching PyTorch build for your platform first:
+# https://pytorch.org/get-started/locally/
+
+accelerate==1.12.0
+diffusers==0.36.0
+numpy==2.2.6
+Pillow==10.3.0
+scipy==1.16.3
+tensorboard==2.16.2
+tqdm==4.66.2
+transformers==4.57.1
+
+# OpenAI CLIP. Avoid installing the unrelated package named "clip" from PyPI.
+git+https://github.com/openai/CLIP.git
